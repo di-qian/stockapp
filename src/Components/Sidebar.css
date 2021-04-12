@@ -1,0 +1,9 @@
+.nav-sidebar-style {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  z-index: 100;
+  background-color: rgb(238, 234, 234);
+  padding-top: 10px;
+  border-right: 1px, solid #d3d3de;
+}
