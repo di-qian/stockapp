@@ -18,6 +18,8 @@
 
 .container {
   z-index: 1;
+  left: 0;
+  top: 0;
   width: 100%;
   max-width: 1300px;
   margin-right: auto;

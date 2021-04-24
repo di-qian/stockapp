@@ -11,12 +11,17 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="navbar-container container">
+        <div className="navbar-container container-fluid">
           <Link to="/" className="navbar-logo">
-            <i class="fas fa-rocket navbar-icon"></i> Stockmon
+            <i className="fas fa-rocket navbar-icon" />
+            IntelliTrade
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            {click ? <i class="fas fa-times" /> : <i class="fas fa-bars" />}
+            {click ? (
+              <i className="fas fa-times" />
+            ) : (
+              <i className="fas fa-bars" />
+            )}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">

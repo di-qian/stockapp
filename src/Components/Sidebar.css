@@ -1,9 +1,14 @@
 .nav-sidebar-style {
   position: fixed;
+
   height: 100%;
   width: 250px;
-  z-index: 100;
+  z-index: 1;
   background-color: rgb(238, 234, 234);
-  padding-top: 10px;
-  border-right: 1px, solid #d3d3de;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  overflow-y: auto;
+  padding: 0px;
 }

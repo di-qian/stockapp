@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Dashboard from './Pages/Dashboard';
+import Main from './Pages/Main';
+import RealtimeChart from './Pages/RealtimeChart';
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" />
+          {/* <Route path="/" exact component={Dashboard} /> */}
+          <Route path="/" exact component={RealtimeChart} />
         </Switch>
       </Router>
     </>
